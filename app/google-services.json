@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "371812423741",
+    "firebase_url": "https://blctelkom-dd1a9.firebaseio.com",
+    "project_id": "blctelkom-dd1a9",
+    "storage_bucket": "blctelkom-dd1a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371812423741:android:7a809120e2b4294d",
+        "android_client_info": {
+          "package_name": "blctelkom.id.srimandali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371812423741-tdgp9r7qstp7iiu5bpvne9c8va465pu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blctelkom.id.srimandali",
+            "certificate_hash": "7358043e1a2f51863b6b57bd20853a201c01d80a"
+          }
+        },
+        {
+          "client_id": "371812423741-2q0kfngp2rvrvt6pg4ripgeg6e0mdvi0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "371812423741-2q0kfngp2rvrvt6pg4ripgeg6e0mdvi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3boYYagBgv1p_OvholpOBx33Ohu3xolI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371812423741-2q0kfngp2rvrvt6pg4ripgeg6e0mdvi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371812423741:android:147afd30412b9459",
+        "android_client_info": {
+          "package_name": "telkom.blc.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371812423741-e3viajni27l69ht4m676h7itv7q6g6k1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "telkom.blc.project1",
+            "certificate_hash": "7358043e1a2f51863b6b57bd20853a201c01d80a"
+          }
+        },
+        {
+          "client_id": "371812423741-2q0kfngp2rvrvt6pg4ripgeg6e0mdvi0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "371812423741-2q0kfngp2rvrvt6pg4ripgeg6e0mdvi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3boYYagBgv1p_OvholpOBx33Ohu3xolI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371812423741-2q0kfngp2rvrvt6pg4ripgeg6e0mdvi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

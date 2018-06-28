@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SriMANDALI</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Tempat">
+        <item>Pos MVO Babadan</item>
+        <item>Stasiun Grawah</item>
+        <item>Stasiun Gunung Ijo</item>
+        <item>Stasiun Klatakan</item>
+        <item>Stasiun Patuk</item>
+        <item>Stasiun Selokopo</item>
+        <item>Stasiun Labuhan</item>
+        <item>Stasiun Deles</item>
+    </string-array>
+    <string-array name="LinkTilt">
+        <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=babadan&amp;lokasi=Pos%20MVO%20Babadan</item>
+        <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=grawah&amp;lokasi=Stasiun%20Grawah</item>
+        <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=gunungijo&amp;lokasi=Stasiun%20Gunung%20Ijo</item>
+        <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=klatakan&amp;lokasi=Stasiun%20Klatakan</item>
+        <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=klatakan&amp;lokasi=Stasiun%20Klatakan</item>
+        <item>merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=selokopo&amp;lokasi=Stasiun%20Selokopo</item>
+        <item>merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=selokopo&amp;lokasi=Stasiun%20Selokopo</item>
+        <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=tlr_deles&amp;lokasi=Tiltmeter%20TLR%20Stasiun%20Deles</item>
+    </string-array>
+</resources>
+
