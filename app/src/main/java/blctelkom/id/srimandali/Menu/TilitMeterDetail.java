@@ -19,11 +19,14 @@ public class TilitMeterDetail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tilit_meter_detail);
         displayHomeAsUpEnabled();
+        // Mengambil Strig dari activity Adapter
         setTitle(getIntent().getStringExtra("NamaKEY"));
         String link = getIntent().getStringExtra("LinkKEY");
-        Log.d("INTENTLINK",link);
+        // Inisialisasi WebView
         webLihat = (WebView)findViewById(R.id.WVTilt);
+        //Mangkatifkan java script pada weview
         webLihat.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+        //Mengaktifkan Tombol Zoomin dan zoomout
         webLihat.getSettings().setBuiltInZoomControls(true);
         webLihat.setWebViewClient(new WebViewClient() {
             @Override
@@ -33,8 +36,9 @@ public class TilitMeterDetail extends AppCompatActivity {
                 return true;
             }
         });
+        //Mangkatifkan java script pada weview
         webLihat.getSettings().setJavaScriptEnabled(true);
-        webLihat.getSettings().setGeolocationEnabled(true);
+        // Mengkatifkan Location
         webLihat.setWebChromeClient(new WebChromeClient(){
 
             @Override
@@ -44,9 +48,10 @@ public class TilitMeterDetail extends AppCompatActivity {
 
 
         });
+        //Mengambil Link dari Adapter
         webLihat.loadUrl(link);
     }
-
+    // Membuat Method saat Tombil Back Di sentuh
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -56,7 +61,7 @@ public class TilitMeterDetail extends AppCompatActivity {
         }
         return true;
     }
-
+    // Membuat Method saat Tombol back di actionbar di sentuh
     private void displayHomeAsUpEnabled() {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {

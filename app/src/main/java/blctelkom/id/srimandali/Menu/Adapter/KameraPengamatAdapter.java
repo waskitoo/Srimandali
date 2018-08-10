@@ -30,31 +30,34 @@ public class KameraPengamatAdapter extends RecyclerView.Adapter<KameraPengamatAd
         private ImageView mImageView;
         private MyViewHolder(View itemView) {
             super(itemView);
+            // Inisialisasi Layput yang ingin di gunakan
             mTempat = (TextView)itemView.findViewById(R.id.TVNamaCam);
             mImageView = (ImageView)itemView.findViewById(R.id.IVGambar);
             cardView = (CardView)itemView.findViewById(R.id.cvPhoto);
         }
     }
+    // Method adapter yang di gunakan pada class alin
     public KameraPengamatAdapter(ArrayList<String> dataTempat, ArrayList<String> dataGambar, Context context){
         this.dataTempat = dataTempat;
         this.dataGambar = dataGambar;
         this.context = context;
     }
-
+    // Method yang yang bejalan saat onCreate
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.fragment_kamera_pengamat_row,parent,false);
         return new MyViewHolder(itemView);
     }
-
+    // Mehod yang berjalan seletah oncreate elesai
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
+        //Mengambil array melalui angka position
 
         final String listTempat = dataTempat.get(position);
         final String listGambar = dataGambar.get(position);
         holder.mTempat.setText(""+listTempat);
-        //Picasso.get().load(""+listGambar).into(holder.mImageView);
+        // Menampilkan gambar melalui Library glide
         Glide.with(context).load(""+listGambar).into(holder.mImageView);
     }
 

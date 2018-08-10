@@ -4,11 +4,40 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/colorBackgroundDark"
     tools:context="blctelkom.id.srimandali.Menu.Home">
+    <LinearLayout
+        android:id="@+id/linearRefreshHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:gravity="center|top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tidak Ada Internet, Cek Koneksi Internet"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Swipe Kebawah Untuk Refresh"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_downn"
+            />
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swpHome"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
+        android:id="@+id/TampilanHome"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -46,4 +75,5 @@
             </WebView>
     </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>

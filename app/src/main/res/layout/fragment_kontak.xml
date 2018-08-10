@@ -38,11 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Telepon: 0272 328564
-Whatsapp : 081578075543
-Freq VHF : 169.900 Duplek , -5050 input 164.850 tone 123.0
-Twitter :@bpbdkabklaten
-e-mail : pusdalopskabklaten@gmail.com" />
+                        android:text="Telepon: 0272 328564 \n Whatsapp : 081578075543 \n Freq VHF : 169.900 Duplek , -5050 input 164.850 tone 123.0 \n Twitter :@bpbdkabklaten \n e-mail : pusdalopskabklaten@gmail.com" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -219,6 +215,129 @@ e-mail : pusdalopskabklaten@gmail.com" />
                             android:visibility="invisible"/>
                         <ImageButton
                             android:id="@+id/phone_kodim"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/colorAccent"
+                            android:src="@drawable/ic_phone"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_margin="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="DINAS PERHUBUNGAN Klaten"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="Jalan Perintis Kemerdekaan No. 1, Klaten"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Telepon: (0272) 322241"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0272 322241"
+                            android:visibility="invisible"/>
+                        <ImageButton
+                            android:id="@+id/phone_perhubungan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/colorAccent"
+                            android:src="@drawable/ic_phone"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_margin="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="RAPI Klaten (JZ11ZZW24)"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="Jl.Mayor Kusmanto No.24 (Komplek GOR Gelarsena)"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Frekuensi : VHF 143.450 Mhz \n Telepon : 085640320332"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0272 322241"
+                            android:visibility="invisible"/>
+                        <ImageButton
+                            android:id="@+id/phone_rapi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/colorAccent"
+                            android:src="@drawable/ic_phone"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_margin="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="DINAS PERTANIAN KLATEN"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="Jl. Perintis Kemerdekaan, Morangan, Jonggrangan, Klaten Utara"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Telepon: (0272) 326206"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0272 326206"
+                            android:visibility="invisible"/>
+                        <ImageButton
+                            android:id="@+id/phone_pertanian"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/colorAccent"

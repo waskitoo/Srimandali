@@ -39,7 +39,9 @@ public class LaporanHarian extends Fragment {
         View view =inflater.inflate(R.layout.fragment_laporan_harian, container, false);
         ((MainActivity) getActivity())
                 .setTitle("Laporan Harian");
+        //Inisialisai WebView
         webView = (WebView)view.findViewById(R.id.WVLaporan);
+
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -47,27 +49,33 @@ public class LaporanHarian extends Fragment {
                 return true;
             }
         });
+        //Untuk eksekusi Method LoadNews()
         LoadNews();
 
         return view;
     }
+    // Method LoadNews Untuk Meload Berita
     private void LoadNews(){
+        // Tread Untuk Menjalankan Jsoup
         new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
+                    //Mengambil Elemen Dari Link
                     Document doc = Jsoup.connect("http://merapi.bgl.esdm.go.id/pub/data.php")
                             .get();
+                    // Mengambil Elemen dari div.box-pengumuman
                     final Elements berita = doc.select("div.box-pengumuman");
                         Log.d("Berita:",berita.html());
                         String pageHtml = berita.html();
+                        // Menamung hasil Pengambilan Elemen Ke WebView
                         webView.post(new Runnable() {
                             @Override
                             public void run() {
                                 webView.loadData(berita.html().split("<h2>Laporan Harian</h2> ")[1],"text/html", null);
                             }
                         });
-
+                // Handle Jika ada Kesalahan Saat Load dari website
                 } catch (UncheckedIOException e){
                     if (getActivity()==null){
                         return;

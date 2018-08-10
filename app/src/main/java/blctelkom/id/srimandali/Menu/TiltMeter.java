@@ -39,10 +39,16 @@ public class TiltMeter extends Fragment implements AdapterView.OnItemClickListen
         View view = inflater.inflate(R.layout.fragment_tilt_meter, container, false);
         ((MainActivity) getActivity())
                 .setTitle("Tilt Meter");
+        //Inisialisasi Array
+        // Data akan di ambil dari String pada XML
         dataTempat = Arrays.asList(getResources().getStringArray(R.array.Tempat));
         dataLink = Arrays.asList(getResources().getStringArray(R.array.LinkTilt));
+        // Inisialisasi RecycleView
         RecyclerView recyclerView = (RecyclerView)view.findViewById(R.id.RVTilt);
+        //Set Jenis Layout yang ingin di gunakan Oleh RecyclerView
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        //Set adapter recyclerview
+        // adapter akan Mengambil data dan melempar ke TiltMeterAdapter
         mAdapter = new TiltMeterAdapter(dataTempat,dataLink,getActivity());
         recyclerView.setAdapter(mAdapter);
         return view;

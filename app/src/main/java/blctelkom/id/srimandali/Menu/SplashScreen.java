@@ -15,6 +15,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         final Handler handler = new Handler();
+        //Membuat Activity Menunggu Selama 2,5 detik untuk berganti activity
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {

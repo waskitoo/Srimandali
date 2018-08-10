@@ -29,5 +29,6 @@
         <item>merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=selokopo&amp;lokasi=Stasiun%20Selokopo</item>
         <item>http://merapi.bgl.esdm.go.id/tiltdata/harian.html?alat=tlr_deles&amp;lokasi=Tiltmeter%20TLR%20Stasiun%20Deles</item>
     </string-array>
+    <string name="title_activity_maps">Map</string>
 </resources>
 

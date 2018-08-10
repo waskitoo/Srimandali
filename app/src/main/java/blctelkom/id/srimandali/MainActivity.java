@@ -28,8 +28,9 @@ import blctelkom.id.srimandali.Menu.Login;
 import blctelkom.id.srimandali.Menu.PetaKRB;
 import blctelkom.id.srimandali.Menu.TiltMeter;
 
+// UNTUK MEMBUAT ACTIVITY SEPERTI INI
 public class MainActivity extends AppCompatActivity {
-
+    // Identifikasi Seluruh variable yang ingin di gunakan
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
     private FloatingActionButton fab1,fab2;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Inisialisasi Variable dengan id yang di gunakan pada layaout
         fab1 = (FloatingActionButton) findViewById(R.id.fab1);
         fab2 = (FloatingActionButton) findViewById(R.id.fab2);
         fab2.hide();
@@ -50,11 +52,12 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setSubtitle("BPBD Kab.KLATEN");
 
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        //kode di bawah untuk Menampilkan dan Menghilangkan floating buton pada maps
+        // dan kode di bawah berguna untuk mematikan refresh pada kamera pengamat
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -82,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        //Kode di bawah untuk Mengeksekusi saat Floating button Maps di Tekan dan akan membuka Maps di HP Android
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -91,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //Kode di bawah untuk Mengeksekusi saat Floating button Chat di Tekan den akan berganti activity ke activity chat
         fab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
