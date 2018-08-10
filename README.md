@@ -19,7 +19,7 @@ Applikasi Ini menggunakan Library seperti:
       Pengguaan Glide : https://github.com/bumptech/glide
   3. Maps SDK
 
-Untuk Maintenance Chat Applikasi Ini menggunakan Chat dari CodeLabz : https://codelabs.developers.google.com/codelabs/firebase-android/#0
+Untuk Maintenance Chat Applikasi Ini menggunakan Chat dari CodeLabs : https://codelabs.developers.google.com/codelabs/firebase-android/#0
 
 
 Untuk Tutorial Silahkan Lihat didalam Kode Android Langsung
