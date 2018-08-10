@@ -7,7 +7,9 @@ Untuk Maintenance Applikasi Anda Harus Mengetahui Android Fundamental Seperti
   3. Lifecyle Activity dan Lifecycle Fragment
   4. Recyclerview
   
-Tutorial Android Fundamental : https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/idn/
+Seluruh Tutorial Diatas Terdapat di Andoid Fundamental
+
+Link Android Fundamental : https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/idn/
 
 
 Applikasi Ini menggunakan Library spserti :
