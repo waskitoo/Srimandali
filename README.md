@@ -3,6 +3,8 @@ Sebelum Maintenance Applikasi Anda Harus Mengetahui Android Fundamental Seperti
   2. Fragment
   3. Recyclerview
   Tutorial Android Fundamental : https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/idn/
+
+
 Applikasi Ini menggunakan Library spserti :
   1. Jsoup
       Penggunaan JSOUP : https://jsoup.org/cookbook/extracting-data/selector-syntax
