@@ -1,4 +1,7 @@
-Sebelum Maintenance Applikasi Anda Harus Mengetahui Android Fundamental Seperti 
+Sebelum Maintenance Applikasi Harus Mengetahu OOP (Object Orientation Programing) Java
+
+
+Untuk Maintenance Applikasi Anda Harus Mengetahui Android Fundamental Seperti 
   1. Activity
   2. Fragment
   3. Recyclerview
