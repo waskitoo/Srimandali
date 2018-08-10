@@ -4,6 +4,7 @@ Sebelum Maintenance Applikasi Harus Mengetahu OOP (Object Orientation Programing
 Untuk Maintenance Applikasi Anda Harus Mengetahui Android Fundamental Seperti 
   1. Activity
   2. Fragment
+  3. Lifecyle Activity dan Lifecycle Fragment
   3. Recyclerview
   Tutorial Android Fundamental : https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/idn/
 
