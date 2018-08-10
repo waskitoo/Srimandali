@@ -17,7 +17,7 @@ Applikasi Ini menggunakan Library seperti:
       Penggunaan JSOUP : https://jsoup.org/cookbook/extracting-data/selector-syntax
   2. Glide
       Pengguaan Glide : https://github.com/bumptech/glide
-  3. Maps SDK
+  3. Maps SDK : https://developers.google.com/maps/documentation/android-sdk/intro
 
 Untuk Maintenance Chat Applikasi Ini menggunakan Chat dari CodeLabs : https://codelabs.developers.google.com/codelabs/firebase-android/#0
 
